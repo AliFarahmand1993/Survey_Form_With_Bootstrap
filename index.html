@@ -2,6 +2,7 @@
 <!-- html start -->
 <html lang="en">
 <!-- head start -->
+
 <head>
     <!-- Meta Tags -->
     <meta charset="UTF-8" />
@@ -24,16 +25,54 @@
 <!-- head end -->
 
 <!-- body start -->
-<body>
-<!-- header start -->
-<section>
 
-</section>
-<!-- header end -->
+<body class="bg-light py-3 py-lg-5">
+    <!-- header start -->
+    <header class="container">
+        <div class="text-center">
+            <h1>Survey Name</h1>
+            <p class="lead">Subtitle for the Survey Name</p>
+        </div>
+        <nav>
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link w-100 h4 mb-0 active" id="step-1-tab" data-bs-toggle="tab"
+                        data-bs-target="#step-1" role="tab" aria-controls="step-1" aria-selected="true">Step 1<br><small
+                            class="d-none d-md-inline">Personal Info</small></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link w-100 h4 mb-0" id="step-2-tab" data-bs-toggle="tab"
+                        data-bs-target="#step-2" role="tab" aria-controls="step-2" aria-selected="true">Step 2<br><small
+                            class="d-none d-md-inline">Questions w/answers</small></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link w-100 h4 mb-0" id="step-3-tab" data-bs-toggle="tab"
+                        data-bs-target="#step-3" role="tab" aria-controls="step-3" aria-selected="true">Step 3<br><small
+                            class="d-none d-md-inline">Questions w/ratings</small></button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main class="container">
+        <div class="tab-content">
+            <!-- tab content 1 -->
+            <section class="tab-pane fade pt-4 show active" id="step-1" role="tabpanel" aria-labelledby="step-1-tab">
+            </section>
+            <!-- tab content 2 -->
+            <section class="tab-pane fade pt-4" id="step-2" role="tabpanel" aria-labelledby="step-2-tab">
+            </section>
+            <!-- tab content 3 -->
+            <section class="tab-pane fade pt-4" id="step-3" role="tabpanel" aria-labelledby="step-3-tab">
+            </section>
+        </div>
+    </main>
+    <!-- main ene -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-        <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 <!-- body end -->
 
